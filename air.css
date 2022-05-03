@@ -1,0 +1,117 @@
+.ticket{
+    width: 70%;
+    height: 630px;
+    
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.ticket:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
+}
+
+.header {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 30px;
+     width: 65%;
+     height: 40px;
+     color: aliceblue;
+     background-color:lightskyblue;
+     font-size: 25px;
+     font-weight: 600;
+     border-radius: 6px;
+   }
+   .container{
+   margin-left: 10px;
+
+   padding-left: 20px;
+   font-size: 30px;
+  }
+  .take{
+    font-size: 27px;
+    color: blue;
+  }
+  .place{
+    font-weight: 700;
+    color: brown;
+  }
+  .time {
+      font-size: 25px;
+      padding-left: 20px;
+      color: cornflowerblue;
+  }
+  .date{
+      font-size: 23px;
+      color: dodgerblue;
+      font-weight: 600;
+  }
+  img{
+      padding-left: 630px;
+      width: 280px;
+      height: 260px;
+      padding-bottom: 40px;
+      position: absolute;
+  }
+ 
+ .size {
+     font-size: 24px;
+     color: deepskyblue;
+     padding-left: 30px;
+ }
+ .zone {
+     font-size: 24px ;
+     color: deepskyblue;
+     padding-left: 30px;
+ }
+ .should{
+     width : 60% ; 
+     height: 54px;
+     padding-left: 9px;
+     padding-top: 1px;
+     background-color: silver ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 19px;
+     font-weight: 600;
+     border-radius: 7px;
+ }
+ .end{
+     width: 80%;
+     height: 35px;
+ }
+ .price {
+     width: 50%;
+     height: 110px;
+     background:deepskyblue;
+     padding-left: 20px;
+     font-size: 29px;
+     font-weight: 700;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 8px;
+ }
+ .btn{
+    display: inline-block;
+    text-decoration: none;
+    color:cornflowerblue;
+    border: 3px solid white;
+  padding: 20px 34px;
+    background-color:black;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size: 29px;
+ }
+ .btn:hover{
+
+    border: 1px solid #f44336 ;
+    background:blue;
+    transition: 1s;
+}
+
+
